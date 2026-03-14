@@ -65,7 +65,7 @@ Or simply open the project in Android Studio and run it.
 ```
 ├── app/
 │   └── src/main/
-│       ├── java/com/routermanager/
+│       ├── java/com/routerassistant/
 │       │   ├── MainActivity.java        # Home screen with router list
 │       │   ├── WebViewActivity.java      # WebView with auto-fill engine
 │       │   ├── RouterAdapter.java        # RecyclerView adapter

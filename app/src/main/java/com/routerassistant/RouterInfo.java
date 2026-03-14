@@ -1,4 +1,4 @@
-package com.routermanager;
+package com.routerassistant;
 
 import org.json.JSONException;
 import org.json.JSONObject;

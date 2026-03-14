@@ -1,4 +1,4 @@
-package com.routermanager;
+package com.routerassistant;
 
 import android.annotation.SuppressLint;
 import android.content.ClipData;

@@ -65,7 +65,7 @@ cd RouterAssistant
 ```
 ├── app/
 │   └── src/main/
-│       ├── java/com/routermanager/
+│       ├── java/com/routerassistant/
 │       │   ├── MainActivity.java        # 主页，路由器列表
 │       │   ├── WebViewActivity.java      # WebView 页面，含自动填充引擎
 │       │   ├── RouterAdapter.java        # RecyclerView 适配器

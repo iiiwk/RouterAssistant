@@ -1,4 +1,4 @@
-package com.routermanager;
+package com.routerassistant;
 
 import android.content.Context;
 import android.content.SharedPreferences;

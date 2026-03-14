@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <style name="Theme.RouterManager" parent="Theme.Material3.Dark.NoActionBar">
+    <style name="Theme.RouterAssistant" parent="Theme.Material3.Dark.NoActionBar">
         <item name="colorPrimary">@color/primary</item>
         <item name="colorOnPrimary">@color/text_on_primary</item>
         <item name="colorPrimaryContainer">@color/primary_surface</item>
@@ -17,7 +17,7 @@
         <item name="android:windowLightNavigationBar">false</item>
         <item name="colorOutline">@color/input_border</item>
 
-        <item name="textInputStyle">@style/Widget.RouterManager.TextInput</item>
-        <item name="materialButtonStyle">@style/Widget.RouterManager.Button</item>
+        <item name="textInputStyle">@style/Widget.RouterAssistant.TextInput</item>
+        <item name="materialButtonStyle">@style/Widget.RouterAssistant.Button</item>
     </style>
 </resources>
