@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_refresh"
+        android:title="@string/menu_refresh"
+        android:icon="@drawable/ic_refresh"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_auto_fill"
+        android:title="@string/menu_auto_fill"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_save_credentials"
+        android:title="@string/menu_save_credentials"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_desktop_mode"
+        android:title="@string/menu_desktop_mode"
+        android:checkable="true"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_clear_cache"
+        android:title="@string/menu_clear_cache"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_disconnect"
+        android:title="@string/menu_disconnect"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_debug_log"
+        android:title="@string/menu_debug_log"
+        app:showAsAction="never" />
+
+</menu>

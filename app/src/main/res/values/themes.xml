@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.RouterManager" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorOnPrimary">@color/text_on_primary</item>
+        <item name="colorPrimaryContainer">@color/primary_surface</item>
+        <item name="colorSecondary">@color/accent</item>
+        <item name="colorSurface">@color/surface</item>
+        <item name="colorOnSurface">@color/text_primary</item>
+        <item name="colorOnSurfaceVariant">@color/text_secondary</item>
+        <item name="colorError">@color/error</item>
+        <item name="android:colorBackground">@color/background</item>
+        <item name="android:windowBackground">@color/background</item>
+        <item name="android:statusBarColor">@color/status_bar</item>
+        <item name="android:navigationBarColor">@color/background</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowLightNavigationBar">true</item>
+        <item name="colorOutline">@color/input_border</item>
+
+        <item name="shapeAppearanceSmallComponent">@style/Shape.RouterManager.Small</item>
+        <item name="shapeAppearanceMediumComponent">@style/Shape.RouterManager.Medium</item>
+        <item name="shapeAppearanceLargeComponent">@style/Shape.RouterManager.Large</item>
+
+        <item name="textInputStyle">@style/Widget.RouterManager.TextInput</item>
+        <item name="materialButtonStyle">@style/Widget.RouterManager.Button</item>
+        <item name="materialCardViewStyle">@style/Widget.RouterManager.Card</item>
+        <item name="materialAlertDialogTheme">@style/Dialog.RouterManager</item>
+    </style>
+
+    <style name="Shape.RouterManager.Small" parent="ShapeAppearance.Material3.SmallComponent">
+        <item name="cornerSize">14dp</item>
+    </style>
+
+    <style name="Shape.RouterManager.Medium" parent="ShapeAppearance.Material3.MediumComponent">
+        <item name="cornerSize">20dp</item>
+    </style>
+
+    <style name="Shape.RouterManager.Large" parent="ShapeAppearance.Material3.LargeComponent">
+        <item name="cornerSize">24dp</item>
+    </style>
+
+    <style name="Widget.RouterManager.Card" parent="Widget.Material3.CardView.Outlined">
+        <item name="cardElevation">0dp</item>
+        <item name="cardBackgroundColor">@color/card</item>
+        <item name="strokeColor">@color/card_border</item>
+        <item name="strokeWidth">0.5dp</item>
+        <item name="rippleColor">@color/ripple</item>
+        <item name="shapeAppearance">@style/Shape.RouterManager.Medium</item>
+    </style>
+
+    <style name="Widget.RouterManager.TextInput" parent="Widget.Material3.TextInputLayout.OutlinedBox">
+        <item name="boxCornerRadiusTopStart">14dp</item>
+        <item name="boxCornerRadiusTopEnd">14dp</item>
+        <item name="boxCornerRadiusBottomStart">14dp</item>
+        <item name="boxCornerRadiusBottomEnd">14dp</item>
+        <item name="boxStrokeColor">@color/input_border_selector</item>
+        <item name="hintTextColor">@color/primary</item>
+        <item name="android:textColorHint">@color/text_tertiary</item>
+        <item name="boxBackgroundColor">@color/input_bg</item>
+    </style>
+
+    <style name="Widget.RouterManager.Button" parent="Widget.Material3.Button">
+        <item name="cornerRadius">14dp</item>
+        <item name="backgroundTint">@color/primary</item>
+        <item name="android:textColor">@color/text_on_primary</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:letterSpacing">0.02</item>
+    </style>
+
+    <style name="Widget.RouterManager.Button.Text" parent="Widget.Material3.Button.TextButton">
+        <item name="cornerRadius">14dp</item>
+        <item name="android:textColor">@color/text_secondary</item>
+    </style>
+
+    <style name="Dialog.RouterManager" parent="ThemeOverlay.Material3.MaterialAlertDialog">
+        <item name="shapeAppearanceOverlay">@style/Shape.RouterManager.Large</item>
+    </style>
+</resources>
